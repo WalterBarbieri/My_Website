@@ -5,13 +5,35 @@ body {
   color: whitesmoke;
   font-family: "Source Code Pro", monospace;
 }
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.3em;
+
+}
+}
+
+.mySelect {
+  background-color: #212B31;
+  border: none ;
+  color: whitesmoke;
+  width: auto;
+}
+
+option {
+  background-color: #212B31;
+
+}
 
 .icon {
-  height: 3em;
   width: 3em;
 }
 .icon2 {
-  height: 3em;
   width: 4em;
+}
+.smallIcon {
+  width: 1.5em;
 }
 

@@ -1,30 +1,38 @@
-<div class="container d-flex justify-content-around align-items-center">
-    <div>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid navbarContainer flex-row-reverse flex-lg-row justify-content-around justify-content-lg-between">
+    <div class="ms-lg-3">
       <h5>Walter Barbieri</h5>
     </div>
-    <div class="d-flex justify-content-evenly w-50">
-      <h5>Portfolio</h5>
-      <h5>About Me</h5>
-      <h5>Contacts</h5>
-    </div>
-    <div class="switchLanguageContainer">
-      <img
-          src="assets/immagini/icons/globe2.svg"
-          alt="LanguageIcon"
-          class="icon"
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleHamburgerMenu()"
+    [class.isActive]="isOpen">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse custom-navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <h5 class="nav-link navItem" (click)="toggleHamburgerMenu()">Portfolio</h5>
+        </li>
+        <li class="nav-item">
+          <h5 class="nav-link navItem" (click)="toggleHamburgerMenu()">About Me</h5>
+        </li>
+        <li class="nav-item">
+          <h5 class="nav-link navItem" (click)="toggleHamburgerMenu()">Contacts</h5>
+        </li>
+      </ul>
 
-      />
-      <select name="languageSelect" id="languageSelect" (change)="onLanguageChange($event)" [value]="selectedLanguage">
+      <div class="d-flex align-items-center me-lg-3">
+        <img src="../../../assets/Icons/globe2.svg" alt="LanguageIcon" class="smallIcon me-1" />
+        <select name="languageSelect" id="languageSelect" (change)="onLanguageChange($event)" [value]="selectedLanguage" class="form-select mySelect">
           <option value="it">
-              <span *ngIf="isLargeScreen">Italiano</span>
-              <span *ngIf="!isLargeScreen">IT</span>
+            <span *ngIf="isLargeScreen" (click)="toggleHamburgerMenu()">Italiano</span>
+            <span *ngIf="!isLargeScreen" (click)="toggleHamburgerMenu()">IT</span>
           </option>
-
           <option value="en">
-              <span *ngIf="isLargeScreen">English</span>
-              <span *ngIf="!isLargeScreen">EN</span>
+            <span *ngIf="isLargeScreen" (click)="toggleHamburgerMenu()">English</span>
+            <span *ngIf="!isLargeScreen" (click)="toggleHamburgerMenu()">EN</span>
           </option>
-
-      </select>
+        </select>
+      </div>
+    </div>
   </div>
-</div>
+</nav>
