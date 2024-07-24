@@ -19,7 +19,7 @@
     "TECNOLOGIE": "Tecnologie che utilizzo:",
     "SERVICES": {
       "TITLE": "Cosa Posso Fare per Te",
-      "CONTENT": "Mi occupo di sviluppo web Full Stack, creando soluzioni su misura per ogni esigenza, sia che tu abbia bisogno di uno spazio virtuale per le tue passioni o i tuoi eventi, o un e-commerce per la tua attività. Dai semplici siti web, agli eco alle complesse Single Page Application con Server-Side Rendering, offro un servizio completo e personalizzato.",
+      "CONTENT": "Mi occupo di sviluppo web Full Stack, creando soluzioni su misura per ogni esigenza, sia che tu abbia bisogno di uno spazio virtuale per le tue passioni o i tuoi eventi, o un e-commerce per la tua attività. Dai semplici siti web alle complesse Single Page Application con Server-Side Rendering, offro un servizio completo e personalizzato.",
       "CONTENT2": "Gestisco sia il front end che il back end, curando ogni dettaglio dal design all'hosting e al deploy. Inoltre, mi occupo dell'ottimizzazione SEO tecnica, implementando metatag e titles dinamici, sitemap e robots per migliorare la visibilità sui motori di ricerca.",
       "CONTENT3": "Assicuro una connessione sicura tramite certificazione SSL e offro un servizio di manutenzione continua per garantire che il tuo sito sia sempre aggiornato e performante.",
       "MY_PROJECTS": "Scopri i miei lavori",
@@ -77,7 +77,7 @@
       "ogTitle": "Home - Walter Barbieri",
       "ogDescription": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per i miei servizi o per collaborazioni.",
       "ogImage": "assets/logo/bw_logo_black.png",
-      "ogUrl": "http://localhost:4200/home",
+      "ogUrl": "http://localhost:4200",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Home - Walter Barbieri",

@@ -77,7 +77,7 @@
       "ogTitle": "Home - Walter Barbieri",
       "ogDescription": "Welcome to the homepage of Walter Barbieri, fullstack web developer. Learn more about me and my skills, view my portfolio, and contact me for services or collaborations.",
       "ogImage": "assets/logo/bw_logo_black.png",
-      "ogUrl": "http://localhost:4200/home",
+      "ogUrl": "http://localhost:4200",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Home - Walter Barbieri",
