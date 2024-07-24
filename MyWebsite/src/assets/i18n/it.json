@@ -45,6 +45,44 @@
     "FOLLOW": "Cercami su"
   },
   "PORTFOLIO": {
-    "TITLE": "I Miei Lavori"
+    "TITLE": "I Miei Lavori",
+    "TOSITE": "Vai al Sito",
+    "GIT": "Vedi su Git",
+    "DESCRIPTION": "Descrizione",
+    "CONTENT": "E-Commerce per gioielleria artigianale sviluppato con Angular, SpringBoot e PostgreSQL. Totalmente reattivo e ottimizzato per mobile e desktop. Sole API esterne PayPal e Stripe, per pagamenti sicuri e ottime prestazioni. Email automatiche e manuali integrate. Pannello di controllo admin avanzato. SEO tecnica ottimizzata. Servizio di traduzione integrato (EN e IT) con possibilità di aggiungere altre lingue. Scalabile. Progetto chiavi in mano."
+  },
+  "title": {
+    "app": "Walter Barbieri - Sviluppatore Web Fullstack",
+    "home": "Home - Walter Barbieri"
+  },
+  "meta": {
+    "app": {
+      "description": "Walter Barbieri, sviluppatore web fullstack, crea siti internet di tutti i tipi, gestisce hosting, deploy e SEO tecnica. Offro collaborazione con aziende per progetti specifici o a lungo termine.",
+      "keywords": "Walter Barbieri, sviluppatore web fullstack, siti internet, ecommerce, SPA, SSR, hosting, deploy, SEO tecnica, manutenzione sito, SSL, github, html, css, javascript, typescript, sass, angular, java, springboot, postgresql, bootstrap, collaborazioni aziende, assunzioni, fullstack developer, frontend developer, backend developer",
+      "author": "Walter Barbieri",
+      "ogTitle": "Walter Barbieri - Sviluppatore Web Fullstack",
+      "ogDescription": "Walter Barbieri, sviluppatore web fullstack, crea siti internet di tutti i tipi, gestisce hosting, deploy e SEO tecnica. Offro collaborazione con aziende per progetti specifici o a lungo termine.",
+      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogUrl": "http://localhost:4200",
+      "ogType": "website",
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Walter Barbieri - Sviluppatore Web Fullstack",
+      "twitterDescription": "Walter Barbieri, sviluppatore web fullstack, crea siti internet di tutti i tipi, gestisce hosting, deploy e SEO tecnica. Offro collaborazione con aziende per progetti specifici o a lungo termine.",
+      "twitterImage": "assets/logo/bw_logo_black.png"
+    },
+    "home": {
+      "description": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per i miei servizi o per collaborazioni.",
+      "keywords": "Walter Barbieri, homepage, sviluppatore web fullstack, competenze, portfolio, contatto, collaborazione",
+      "author": "Walter Barbieri",
+      "ogTitle": "Home - Walter Barbieri",
+      "ogDescription": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per i miei servizi o per collaborazioni.",
+      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogUrl": "http://localhost:4200/home",
+      "ogType": "website",
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Home - Walter Barbieri",
+      "twitterDescription": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per per i miei servizi o per collaborazioni.",
+      "twitterImage": "assets/logo/bw_logo_black.png"
+    }
   }
 }

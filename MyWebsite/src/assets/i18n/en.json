@@ -45,6 +45,44 @@
     "FOLLOW": "Check me on"
   },
   "PORTFOLIO": {
-    "TITLE": "My Projects"
+    "TITLE": "My Projects",
+    "TOSITE": "Go to the Website",
+    "GIT": "Check Out on Git",
+    "DESCRIPTION": "Description",
+    "CONTENT": "Handcrafted Jewelry E-Commerce built with Angular, SpringBoot and PostgreSQL. Fully responsive and optimized for mobile and desktop. Only external APIs used are PayPal and Stripe for secure payments and excellent performance. Integrated automatic and manual email services. Advanced admin control panel. Optimized technical SEO. Built-in translation service (EN & IT) with the option to add more languages. Scalable. Turnkey project."
+  },
+  "title": {
+    "app": "Walter Barbieri - Fullstack Web Developer",
+    "home": "Home - Walter Barbieri"
+  },
+  "meta": {
+    "app": {
+      "description": "Walter Barbieri, fullstack web developer, creates all types of websites, manages hosting, deployment, and technical SEO. Offering collaboration with companies for specific or long-term projects.",
+      "keywords": "Walter Barbieri, fullstack web developer, websites, ecommerce, SPA, SSR, hosting, deployment, technical SEO, site maintenance, SSL, github, html, css, javascript, typescript, sass, angular, java, springboot, postgresql, bootstrap, company collaborations, hiring, fullstack developer, frontend developer, backend developer",
+      "author": "Walter Barbieri",
+      "ogTitle": "Walter Barbieri - Fullstack Web Developer",
+      "ogDescription": "Walter Barbieri, fullstack web developer, creates all types of websites, manages hosting, deployment, and technical SEO. Offering collaboration with companies for specific or long-term projects.",
+      "ogImage": "assets/images/profile/Walter_Barbieri.jpg",
+      "ogUrl": "http://localhost:4200",
+      "ogType": "website",
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Walter Barbieri - Fullstack Web Developer",
+      "twitterDescription": "Walter Barbieri, fullstack web developer, creates all types of websites, manages hosting, deployment, and technical SEO. Offering collaboration with companies for specific or long-term projects.",
+      "twitterImage": "assets/images/profile/Walter_Barbieri.jpg"
+    },
+    "home": {
+      "description": "Welcome to the homepage of Walter Barbieri, fullstack web developer. Learn more about me and my skills, view my portfolio, and contact me for services or collaborations.",
+      "keywords": "Walter Barbieri, homepage, fullstack web developer, skills, portfolio, contact, collaboration",
+      "author": "Walter Barbieri",
+      "ogTitle": "Home - Walter Barbieri",
+      "ogDescription": "Welcome to the homepage of Walter Barbieri, fullstack web developer. Learn more about me and my skills, view my portfolio, and contact me for services or collaborations.",
+      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogUrl": "http://localhost:4200/home",
+      "ogType": "website",
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Home - Walter Barbieri",
+      "twitterDescription": "Welcome to the homepage of Walter Barbieri, fullstack web developer. Learn more about me and my skills, view my portfolio, and contact me for services or collaborations.",
+      "twitterImage": "assets/logo/bw_logo_black.png"
+    }
   }
 }
