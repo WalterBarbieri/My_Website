@@ -1,0 +1,185 @@
+<div class="navigationContainer py-3 d-xl-none">
+  <div class="navigation d-flex flex-column flex-sm-row" (click)="onClick($event)">
+    <a href="#about">#About Me</a>
+    <a href="#services" class="mx-sm-5">#{{ "ABOUT.NAVIGATION.SERVICE" | translate }}</a>
+    <a href="#hire">#{{ "ABOUT.NAVIGATION.HIRING" | translate }}</a>
+  </div>
+</div>
+<div class="container text-center pt-3 pb-5">
+  <div>
+    <h4 id="about">{{ "ABOUT.TITLE" | translate }}</h4>
+    <p>{{ "ABOUT.CONTENT" | translate }}</p>
+    <p>
+      {{ "ABOUT.CONTENT2" | translate }} @
+      <a
+        href="https://epicode.com/it/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Epicode
+        <img
+          src="../../../assets/Immagini/epicode-logo.png"
+          alt="Epicode Logo"
+          class="smallIcon" /></a
+      >, {{ "ABOUT.CONTENT3" | translate }}
+    </p>
+    <p>{{ "ABOUT.CONTENT4" | translate }}</p>
+  </div>
+  <div class="mb-5">
+    <h5>{{ "ABOUT.TECNOLOGIE" | translate }}</h5>
+    <div class="row d-flex align-items-center">
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/githubLogo.png"
+          alt="GitHub Logo"
+          class="icon"
+        />
+        <p class="smallFont">GitHub</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/htmlLogo.png"
+          alt="HTML Logo"
+          class="icon"
+        />
+        <p class="smallFont">HTML</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/cssLogo.png"
+          alt="CSS Logo"
+          class="icon"
+        />
+        <p class="smallFont">CSS</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/jsLogo.png"
+          alt="JavaScript Logo"
+          class="icon"
+        />
+        <p class="smallFont">JavaScript</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/bootstrapLogo.png"
+          alt="Bootsrap Logo"
+          class="icon"
+        />
+        <p class="smallFont">Bootstrap</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/sassLogo.png"
+          alt="Sass Logo"
+          class="icon"
+        />
+        <p class="smallFont">Sass</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/tsLogo.png"
+          alt="TypeScript Logo"
+          class="icon2"
+        />
+        <p class="smallFont">TypeScript</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/angularLogo.png"
+          alt="Angular Logo"
+          class="icon"
+        />
+        <p class="smallFont">Angular</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/javaLogo.png"
+          alt="Java Logo"
+          class="icon"
+        />
+        <p class="smallFont">Java</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/springbootLogo.png"
+          alt="springboot Logo"
+          class="icon2 mb-1"
+        />
+        <p class="smallFont">SpringBoot</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini/postgreSqlLogo.png"
+          alt="PostgreSQL Logo"
+          class="icon"
+        />
+        <p class="smallFont">PostgreSQL</p>
+      </div>
+      <div
+        class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="../../../assets/Immagini//postmanLogo.png"
+          alt="Postman Logo"
+          class="icon"
+        />
+        <p class="smallFont">Postman</p>
+      </div>
+    </div>
+  </div>
+  <div class="mb-5">
+    <h4 id="services">{{ "ABOUT.SERVICES.TITLE" | translate }}</h4>
+    <p>{{ "ABOUT.SERVICES.CONTENT" | translate }}</p>
+    <p>{{ "ABOUT.SERVICES.CONTENT2" | translate }}</p>
+    <p>{{ "ABOUT.SERVICES.CONTENT3" | translate }}</p>
+    <div class="d-flex justify-content-md-evenly flex-column flex-md-row">
+      <a [routerLink]="['/portfolio']" class="mb-3 mb-md-0">{{
+        "ABOUT.SERVICES.MY_PROJECTS" | translate
+      }}</a>
+      <a [routerLink]="['/contact']">{{
+        "ABOUT.SERVICES.CONTACT" | translate
+      }}</a>
+    </div>
+  </div>
+  <div>
+    <h4 id="hire">{{ "ABOUT.HIRE.TITLE" | translate }}</h4>
+    <p>{{ "ABOUT.HIRE.CONTENT" | translate }}</p>
+    <div class="d-flex justify-content-md-evenly flex-column flex-md-row">
+      <a
+        href="../../../assets/cvs/CvWalterBarbieriIT.pdf"
+        download="CvWalterBarbieriIT.pdf"
+        class="mb-3 mb-md-0"
+        >{{ "ABOUT.HIRE.DOWNLOADIT" | translate }}</a
+      >
+      <a
+        href="../../../assets/cvs/CvWalterBarbieriIT.pdf"
+        download="CvWalterBarbieriIT.pdf"
+        class="mb-3 mb-md-0"
+        >{{ "ABOUT.HIRE.DOWNLOADEN" | translate }}</a
+      >
+      <a [routerLink]="['/contact']">{{ "ABOUT.HIRE.CONTACT" | translate }}</a>
+    </div>
+  </div>
+</div>

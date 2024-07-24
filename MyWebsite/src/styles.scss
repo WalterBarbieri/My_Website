@@ -1,39 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-color: #212B31;
   color: whitesmoke;
   font-family: "Source Code Pro", monospace;
+  flex: 1;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
 a {
+  color: whitesmoke;
   text-decoration: none;
+  font-weight: bold;
   &:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.2em;
     text-underline-offset: 0.3em;
-
-}
+  }
 }
 
 .mySelect {
   background-color: #212B31;
-  border: none ;
+  border: none;
   color: whitesmoke;
   width: auto;
+  cursor: pointer;
 }
 
 option {
   background-color: #212B31;
-
 }
 
 .icon {
   width: 3em;
 }
+
 .icon2 {
   width: 4em;
 }
+
 .smallIcon {
   width: 1.5em;
 }
+.bigIcon {
+  width: 6em;
+}
+
 

@@ -1,0 +1,50 @@
+{
+  "CONTATTI": "Contatti",
+  "HOME": {
+    "CIAO": "Ciao",
+    "PRESENTAZIONE": "Mi chiamo Walter Barbieri",
+    "INTRO": "Sono un full stack web developer",
+    "PREFERITI": "Le mie tecnologie preferite sono:",
+    "FIND": "Scopri di più su di me e i miei servizi"
+  },
+  "FOOTER": {
+    "DESIGN": "Questo sito è stato realizzato con"
+  },
+  "ABOUT": {
+    "TITLE": "La Mia Storia",
+    "CONTENT": "Mi chiamo Walter, sono un antropologo con più di 5 anni di esperienza nelle risorse umane.",
+    "CONTENT2": "Ad inizio 2023 ho deciso di cambiare drasticamente la mia vita e iniziare una nuova carriera come Full Stack Developer. Ho frequentato un corso intensivo della durata di 6 mesi",
+    "CONTENT3": "dove ho avuto la possibilità di imparare da ottimi inseganti e cooperare con fantastici colleghi.",
+    "CONTENT4": "La programmazione è la mia passione più grande, con un amore particolare per il back end. Mi diverto esplorando nuove tecnologie e imparando continuamente, con l'ambizione di migliorare ogni giorno di più.",
+    "TECNOLOGIE": "Tecnologie che utilizzo:",
+    "SERVICES": {
+      "TITLE": "Cosa Posso Fare per Te",
+      "CONTENT": "Mi occupo di sviluppo web Full Stack, creando soluzioni su misura per ogni esigenza, sia che tu abbia bisogno di uno spazio virtuale per le tue passioni o i tuoi eventi, o un e-commerce per la tua attività. Dai semplici siti web, agli eco alle complesse Single Page Application con Server-Side Rendering, offro un servizio completo e personalizzato.",
+      "CONTENT2": "Gestisco sia il front end che il back end, curando ogni dettaglio dal design all'hosting e al deploy. Inoltre, mi occupo dell'ottimizzazione SEO tecnica, implementando metatag e titles dinamici, sitemap e robots per migliorare la visibilità sui motori di ricerca.",
+      "CONTENT3": "Assicuro una connessione sicura tramite certificazione SSL e offro un servizio di manutenzione continua per garantire che il tuo sito sia sempre aggiornato e performante.",
+      "MY_PROJECTS": "Scopri i miei lavori",
+      "CONTACT": "Contattami per maggiori informazioni"
+    },
+    "HIRE": {
+      "TITLE": "Mi vuoi assumere?",
+      "CONTENT": "Sono interessato a collaborare con la tua azienda come sviluppatore back end, front end o full stack. Sono aperto a lavorare come collaboratore esterno o dipendente, sia per progetti specifici che per collaborazioni a lungo termine.",
+      "DOWNLOADIT": "Scarica il CV italiano",
+      "DOWNLOADEN": "Scarica il CV inglese",
+      "CONTACT": "Contattami!"
+    },
+    "NAVIGATION": {
+      "SERVICE": "I Miei Servizi",
+      "HIRING": "Lavoriamo Insieme"
+    }
+  },
+  "CONTACT": {
+    "TITLE": "I Miei Contatti",
+    "PHONE": "Telefono",
+    "PEC": "Pec",
+    "IVA": "P. Iva",
+    "FOLLOW": "Cercami su"
+  },
+  "PORTFOLIO": {
+    "TITLE": "I Miei Lavori"
+  }
+}

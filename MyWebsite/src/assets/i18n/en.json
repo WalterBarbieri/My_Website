@@ -1,0 +1,50 @@
+{
+  "CONTATTI": "Contact Me",
+  "HOME": {
+    "CIAO": "Hello",
+    "PRESENTAZIONE": "I Am Walter Barbieri",
+    "INTRO": "I'm a full stack web developer",
+    "PREFERITI": "My Favourite Technologies:",
+    "FIND": "Find Out More About Me and My Services"
+  },
+  "FOOTER": {
+    "DESIGN": "This website was designed with"
+  },
+  "ABOUT": {
+    "TITLE": "My Story",
+    "CONTENT": "My name is Walter, I'm a Cultural Anthropologist with 5+ years of experience in HR.",
+    "CONTENT2": "At the beginning of 2023, I decided to drastically change my life and start a new career as a Full Stack Developer. I attended an intensive 6-month course",
+    "CONTENT3": "where I had the opportunity to learn from great teachers and cooperate with fantastic colleagues.",
+    "CONTENT4": "I’m passionate about programming, with a special love for back end development. I thrive on exploring new technologies and continually learning, always aiming to improve and grow.",
+    "TECNOLOGIE": "Technologies I Use:",
+    "SERVICES": {
+      "TITLE": "What I Can Do for You",
+      "CONTENT": "I specialize in Full Stack web development, creating tailored solutions for every need, whether you need a space for your passions or events, or an e-commerce site for your business. From simple websites to complex Single Page Applications with Server-Side Rendering, I offer a complete and personalized service.",
+      "CONTENT2": "I manage both the front end and the back end, taking care of every detail from design to hosting and deployment. Additionally, I handle technical SEO optimization, implementing dynamic metatags and titles, sitemaps, and robots to improve search engine visibility.",
+      "CONTENT3": "I ensure a secure connection through SSL certification and offer continuous maintenance service to ensure your site is always up-to-date and performing well.",
+      "MY_PROJECTS": "Check Out My Projects",
+      "CONTACT": "Contact me for more info"
+    },
+    "HIRE": {
+      "TITLE": "Are you interested in hiring me?",
+      "CONTENT": "I’m excited about the opportunity to work with your company as a back end, front end, or full stack developer. Whether as a freelance contractor or a full-time employee, I’m open to both project-based work and long-term collaborations.",
+      "DOWNLOADIT": "Download Italian CV",
+      "DOWNLOADEN": "Download English CV",
+      "CONTACT": "Contact Me"
+    },
+    "NAVIGATION": {
+      "SERVICE": "My Services",
+      "HIRING": "Hire Me"
+    }
+  },
+  "CONTACT": {
+    "TITLE": "My Contacts",
+    "PHONE": "Phone",
+    "PEC": "Certified Email",
+    "IVA": "VAT",
+    "FOLLOW": "Check me on"
+  },
+  "PORTFOLIO": {
+    "TITLE": "My Projects"
+  }
+}

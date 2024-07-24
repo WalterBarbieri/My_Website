@@ -1,6 +1,13 @@
+:host {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: rgb(33, 43, 49);
+}
 .navbar {
-  height: 5em;
-
+  height: 7em;
 }
 
 
@@ -26,14 +33,24 @@
   top: 100%;
   left: 10%;
   right: 0;
-  background-color: #212B31;
+  background-color: rgb(33, 43, 49, 0.9);
   z-index: 1;
-  width: 100%;
+  width: fit-content;
+  border: solid 0.1px rgb(83, 83, 83, 0.5)
+}
+
+a.active {
+  text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.3em;
+
 }
 
 @media (min-width: 576px) {
   .custom-navbar-collapse {
     left: 15%;
+    background-color: rgb(33, 43, 49);
+    border: none;
   }
 }
 

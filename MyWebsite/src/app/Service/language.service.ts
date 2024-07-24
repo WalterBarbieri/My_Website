@@ -33,4 +33,8 @@ export class LanguageService {
     }
     return 'it';
   }
+
+  getTranslatedTitleForComponent(component: string): Observable<string> {
+    return this.translate.get(`title.${component}`);
+}
 }
