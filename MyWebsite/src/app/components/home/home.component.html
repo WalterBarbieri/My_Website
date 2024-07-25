@@ -1,43 +1,31 @@
-<div class="container d-flex align-items-center homeBody">
+<div class="container d-flex align-items-center homeBody py-5">
   <div class="row flex-column-reverse flex-sm-row w-100">
     <div
-      class="col-12 col-sm-4 col-md-6 d-flex justify-content-center align-items-center"
+      class="col-12 col-sm-5 d-flex justify-content-center justify-content-sm-end align-items-center"
     >
       <div class="img-container">
         <img
-          src="../../../assets/Immagini/FotoProfilo_preview_rev_1.png"
+          src="../../../assets/Immagini/FotoProfilo.png"
           alt="Profile Picture"
           class="homeImg"
         />
       </div>
     </div>
     <div
-      class="col-12 col-sm-8 col-md-6 d-flex flex-column justify-content-center align-items-center text-center"
+      class="col-12 col-sm-7 d-flex flex-column justify-content-center align-items-center align-items-sm-start text-center text-sm-start"
     >
-      <h4>{{ "HOME.CIAO" | translate }}!</h4>
-      <h3>{{ "HOME.PRESENTAZIONE" | translate }}</h3>
-      <p class="mb-4">{{ "HOME.INTRO" | translate }}</p>
-      <p class="mb-5">
+      <h3>{{ "HOME.CIAO" | translate }}!</h3>
+      <h3 class="mb-5">{{ "HOME.PRESENTAZIONE" | translate }}</h3>
+      <h4 class="mb-5">
         <a [routerLink]="['/portfolio']">{{
           "ABOUT.SERVICES.MY_PROJECTS" | translate
         }}</a>
-      </p>
-      <h5>{{ "HOME.PREFERITI" | translate }}</h5>
-      <div class="mb-4">
-        <img
-          class="icon me-5"
-          src="../../../assets/Immagini/angularLogo.png"
-          alt="Logo Angular"
-        />
-        <img
-          class="icon2"
-          src="../../../assets/Immagini/springbootLogo.png"
-          alt="Logo Springboot"
-        />
-      </div>
-      <p>
+      </h4>
+
+      <h4>
         <a [routerLink]="['/about-me']">{{ "HOME.FIND" | translate }}</a>
-      </p>
+      </h4>
     </div>
+
   </div>
 </div>
