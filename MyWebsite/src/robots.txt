@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+Allow: /portfolio
+Allow: /about-me
+Allow: /contact
+
+Sitemap: http://www.example.com/sitemap.xml

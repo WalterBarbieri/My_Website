@@ -7,7 +7,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 })
 export class LanguageService {
   private validLanguages = ['it', 'en'];
-  private currentLanguageSubject = new BehaviorSubject<string>('it');
+  private currentLanguageSubject = new BehaviorSubject<string>('en');
   public language$: Observable<string> =
     this.currentLanguageSubject.asObservable();
 
@@ -31,7 +31,7 @@ export class LanguageService {
     if (storedLanguage && this.validLanguages.includes(storedLanguage)) {
       return storedLanguage;
     }
-    return 'it';
+    return 'en';
   }
 
   getTranslatedTitleForComponent(component: string): Observable<string> {

@@ -1,11 +1,27 @@
-.homeBody{
+.homeBody {
   min-height: 75vh;
 }
-.homeImg {
-  border-radius: 90px;
+
+.img-container {
+  position: relative;
   width: 160px;
   height: 250px;
+  overflow: hidden;
 }
 
+.homeImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(to left, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(to right, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(to left, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(to right, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
+  mask-composite: intersect;
+  -webkit-mask-composite: intersect;
 
-
+}
