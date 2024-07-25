@@ -53,7 +53,10 @@
   },
   "title": {
     "app": "Walter Barbieri - Sviluppatore Web Fullstack",
-    "home": "Home - Walter Barbieri"
+    "home": "Home - Walter Barbieri",
+    "portfolio": "Portfolio - Walter Barbieri",
+    "about": "About Me - Walter Barbieri",
+    "contact": "Contatti - Walter Barbieri"
   },
   "meta": {
     "app": {
@@ -82,6 +85,48 @@
       "twitterCard": "summary_large_image",
       "twitterTitle": "Home - Walter Barbieri",
       "twitterDescription": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per per i miei servizi o per collaborazioni.",
+      "twitterImage": "assets/logo/bw_logo_black.png"
+    },
+    "portfolio": {
+      "description": "Scopri i lavori di Walter Barbieri, sviluppatore web fullstack. Visita i siti web creati e visualizza i progetti su GitHub.",
+      "keywords": "Walter Barbieri, portfolio, lavori, siti web creati, progetti GitHub, sviluppatore web fullstack",
+      "author": "Walter Barbieri",
+      "ogTitle": "Portfolio - Walter Barbieri",
+      "ogDescription": "Scopri i lavori di Walter Barbieri, sviluppatore web fullstack. Visita i siti web creati e visualizza i progetti su GitHub.",
+      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogUrl": "http://localhost:4200/portfolio",
+      "ogType": "website",
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Portfolio - Walter Barbieri",
+      "twitterDescription": "Scopri i lavori di Walter Barbieri, sviluppatore web fullstack. Visita i siti web creati e visualizza i progetti su GitHub.",
+      "twitterImage": "assets/logo/bw_logo_black.png"
+    },
+    "about": {
+      "description": "Scopri la storia di Walter Barbieri, sviluppatore web fullstack, le tecnologie che utilizza, i servizi offerti e le opportunità di collaborazione.",
+      "keywords": "Walter Barbieri, la mia storia, tecnologie, servizi, collaborazioni, sviluppatore web fullstack",
+      "author": "Walter Barbieri",
+      "ogTitle": "About - Walter Barbieri",
+      "ogDescription": "Scopri la storia di Walter Barbieri, sviluppatore web fullstack, le tecnologie che utilizza, i servizi offerti e le opportunità di collaborazione.",
+      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogUrl": "http://localhost:4200/about-me",
+      "ogType": "website",
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "About - Walter Barbieri",
+      "twitterDescription": "Scopri la storia di Walter Barbieri, sviluppatore web fullstack, le tecnologie che utilizza, i servizi offerti e le opportunità di collaborazione.",
+      "twitterImage": "assets/logo/bw_logo_black.png"
+    },
+    "contact": {
+      "description": "Contatta Walter Barbieri, sviluppatore web fullstack. Trova i suoi contatti: telefono, email, PEC, partita IVA, e i link per LinkedIn e GitHub.",
+      "keywords": "Walter Barbieri, contatti, telefono, email, PEC, partita IVA, LinkedIn, GitHub, sviluppatore web fullstack",
+      "author": "Walter Barbieri",
+      "ogTitle": "Contact - Walter Barbieri",
+      "ogDescription": "Contatta Walter Barbieri, sviluppatore web fullstack. Trova i suoi contatti: telefono, email, PEC, partita IVA, e i link per LinkedIn e GitHub.",
+      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogUrl": "http://localhost:4200/contact",
+      "ogType": "website",
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Contact - Walter Barbieri",
+      "twitterDescription": "Contatta Walter Barbieri, sviluppatore web fullstack. Trova i suoi contatti: telefono, email, PEC, partita IVA, e i link per LinkedIn e GitHub.",
       "twitterImage": "assets/logo/bw_logo_black.png"
     }
   }
