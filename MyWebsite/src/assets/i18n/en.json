@@ -2,7 +2,7 @@
   "CONTATTI": "Contact Me",
   "HOME": {
     "CIAO": "Hello",
-    "PRESENTAZIONE": "I Am Walter Barbieri and I'm a full stack web developer",
+    "PRESENTAZIONE": "I'm Walter Barbieri and I'm a full stack web developer",
     "INTRO": "I'm a full stack web developer",
     "PREFERITI": "My Favourite Technologies:",
     "FIND": "Find Out More About Me and My Services"
@@ -49,7 +49,7 @@
     "TOSITE": "Go to the Website",
     "GIT": "Check Out on Git",
     "DESCRIPTION": "Description",
-    "CONTENT": "Handcrafted Jewelry E-Commerce built with Angular, SpringBoot and PostgreSQL. Fully responsive and optimized for mobile and desktop. Only external APIs used are PayPal and Stripe for secure payments and excellent performance. Integrated automatic and manual email services. Advanced admin control panel. Optimized technical SEO. Built-in translation service (EN & IT) with the option to add more languages. Scalable. Turnkey project."
+    "CONTENT": "Handcrafted Jewelry E-Commerce built with Angular, SpringBoot and PostgreSQL. Fully responsive and optimized for mobile and desktop. Only external APIs used are PayPal, Stripe and IDB for secure payments and excellent performance. Integrated automatic and manual email services. Advanced admin control panel. Optimized technical SEO. Built-in translation service (EN & IT) with the option to add more languages. Scalable. Turnkey project."
   },
   "title": {
     "app": "Walter Barbieri - Fullstack Web Developer",
@@ -66,7 +66,7 @@
       "ogTitle": "Walter Barbieri - Fullstack Web Developer",
       "ogDescription": "Walter Barbieri, fullstack web developer, creates all types of websites, manages hosting, deployment, and technical SEO. Offering collaboration with companies for specific or long-term projects.",
       "ogImage": "assets/images/profile/Walter_Barbieri.jpg",
-      "ogUrl": "http://localhost:4200",
+      "ogUrl": "http://walterbarbieri.it",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Walter Barbieri - Fullstack Web Developer",
@@ -80,7 +80,7 @@
       "ogTitle": "Home - Walter Barbieri",
       "ogDescription": "Welcome to the homepage of Walter Barbieri, fullstack web developer. Learn more about me and my skills, view my portfolio, and contact me for services or collaborations.",
       "ogImage": "assets/logo/bw_logo_black.png",
-      "ogUrl": "http://localhost:4200",
+      "ogUrl": "http://walterbarbieri.it",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Home - Walter Barbieri",
@@ -94,7 +94,7 @@
       "ogTitle": "Portfolio - Walter Barbieri",
       "ogDescription": "Discover the work of Walter Barbieri, fullstack web developer. Visit the created websites and view projects on GitHub.",
       "ogImage": "assets/logo/bw_logo_black.png",
-      "ogUrl": "http://localhost:4200/portfolio",
+      "ogUrl": "http://walterbarbieri.it/portfolio",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Portfolio - Walter Barbieri",
@@ -108,7 +108,7 @@
       "ogTitle": "About - Walter Barbieri",
       "ogDescription": "Discover the story of Walter Barbieri, fullstack web developer, the technologies he uses, the services offered, and collaboration opportunities.",
       "ogImage": "assets/logo/bw_logo_black.png",
-      "ogUrl": "http://localhost:4200/about-me",
+      "ogUrl": "http://walterbarbieri.it/about-me",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "About - Walter Barbieri",
@@ -122,7 +122,7 @@
       "ogTitle": "Contact - Walter Barbieri",
       "ogDescription": "Get in touch with Walter Barbieri, fullstack web developer. Find his contact details: phone, email, Certified Email, VAT number, and links to LinkedIn and GitHub.",
       "ogImage": "assets/logo/bw_logo_black.png",
-      "ogUrl": "http://localhost:4200/contact",
+      "ogUrl": "http://walterbarbieri.it/contact",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Contact - Walter Barbieri",
