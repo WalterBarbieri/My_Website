@@ -10,19 +10,23 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /*
-  mask-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%),
-    linear-gradient(to left, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%),
-    linear-gradient(to right, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%),
-    linear-gradient(to left, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%),
-    linear-gradient(to right, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
-  mask-composite: intersect;
-  -webkit-mask-composite: intersect;
-  */
 
+}
+
+.homeBodyInner {
+  position: relative;
+  overflow: hidden;
+}
+
+.homeBodyInner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  background-color: #384247;
+  z-index: -1;
 }
 
 @media screen and (min-width: 400px) {
@@ -40,19 +44,101 @@
   .img-container {
     width: 100%;
   }
+  .homeBodyInner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 68%;
+    height: 100%;
+    background-color: #384247;
+    z-index: -1;
+  }
 }
 @media screen and (min-width: 768px) {
   .img-container {
     width: 70%;
+  }
+
+  .homeBodyInner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 63%;
+    height: 100%;
+    background-color: #384247;
+    z-index: -1;
   }
 }
 @media screen and (min-width: 992px) {
   .img-container {
     width: 60%;
   }
+  .homeBodyInner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 59%;
+    height: 100%;
+    background-color: #384247;
+    z-index: -1;
+  }
 }
 @media screen and (min-width: 1200px) {
   .img-container {
     width: 50%;
+  }
+  .homeBodyInner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 57%;
+    height: 100%;
+    background-color: #384247;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
+  .homeBodyInner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 54%;
+    height: 100%;
+    background-color: #384247;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+
+  .homeBodyInner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 53%;
+    height: 100%;
+    background-color: #384247;
+    z-index: -1;
+  }
+}
+@media screen and (min-width: 1700px) {
+
+  .homeBodyInner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 52%;
+    height: 100%;
+    background-color: #384247;
+    z-index: -1;
   }
 }
