@@ -8,7 +8,7 @@ import { MetaService } from 'src/app/Service/meta.service';
   styleUrls: ['./about.component.scss'],
 })
 export class AboutComponent implements OnInit {
-  private offset: number = 216;
+  private offset: number = 248;
 
   constructor(
     private meta: MetaService,
