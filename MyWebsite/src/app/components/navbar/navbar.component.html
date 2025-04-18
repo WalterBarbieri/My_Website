@@ -1,7 +1,12 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid navbarContainer flex-row-reverse flex-lg-row justify-content-around justify-content-lg-between">
     <div class="ms-lg-3 pt-3">
-      <a [routerLink]="['/']" (click)="toggleHamburgerMenu()"><img src="../../../assets/logo/BW nord positivo.png" alt="Walter Barbieri Full Stack Developer Logo" class="bigIcon"></a>
+      <a [routerLink]="['/']" (click)="toggleHamburgerMenu()">
+        <picture>
+          <source srcset="../../../assets/logo/BW_nord_positivo.webp" type="image/webp" />
+          <img src="../../../assets/logo/BW_nord_positivo.png" alt="Walter Barbieri Full Stack Developer Logo" class="bigIcon">
+        </picture>
+      </a>
     </div>
     <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleHamburgerMenu()"
     [class.isActive]="isOpen">
@@ -22,6 +27,7 @@
 
       <div class="d-flex align-items-center me-lg-3">
         <img src="../../../assets/Icons/globe2.svg" alt="LanguageIcon" class="smallIcon me-1" />
+        <label for="languageSelect" class="visually-hidden">Select your language</label>
         <select name="languageSelect" id="languageSelect" (change)="onLanguageChange($event)" [value]="selectedLanguage" class="form-select mySelect">
           <option value="it">
             <span *ngIf="isLargeScreen">Italiano</span>

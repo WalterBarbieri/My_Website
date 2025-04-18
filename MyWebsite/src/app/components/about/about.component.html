@@ -1,7 +1,12 @@
 <div class="navigationContainer py-3 d-xl-none">
-  <div class="navigation d-flex flex-column flex-sm-row" (click)="onClick($event)">
+  <div
+    class="navigation d-flex flex-column flex-sm-row"
+    (click)="onClick($event)"
+  >
     <a href="#about">#About Me</a>
-    <a href="#services" class="mx-sm-5">#{{ "ABOUT.NAVIGATION.SERVICE" | translate }}</a>
+    <a href="#services" class="mx-sm-5"
+      >#{{ "ABOUT.NAVIGATION.SERVICE" | translate }}</a
+    >
     <a href="#hire">#{{ "ABOUT.NAVIGATION.HIRING" | translate }}</a>
   </div>
 </div>
@@ -16,10 +21,17 @@
         target="_blank"
         rel="noopener noreferrer"
         >Epicode
-        <img
-          src="../../../assets/Immagini/epicode-logo.png"
-          alt="Epicode Logo"
-          class="smallIcon" /></a
+        <picture>
+          <source
+            srcset="../../../assets/Immagini/epicode-logo.webp"
+            type="image/webp"
+          />
+          <img
+            src="../../../assets/Immagini/epicode-logo.png"
+            alt="Epicode Logo"
+            class="smallIcon"
+          />
+        </picture> </a
       >, {{ "ABOUT.CONTENT3" | translate }}
     </p>
     <p>{{ "ABOUT.CONTENT4" | translate }}</p>
@@ -30,121 +42,180 @@
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
-        <img
-          src="../../../assets/Immagini/githubLogo.png"
-          alt="GitHub Logo"
-          class="icon"
-        />
+        <picture>
+          <source
+            srcset="../../../assets/Immagini/githubLogo.webp"
+            type="image/webp"
+          />
+          <img
+            src="../../../assets/Immagini/githubLogo.png"
+            alt="GitHub Logo"
+            class="aboutIcon"
+          />
+        </picture>
         <p class="smallFont">GitHub</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
-        <img
-          src="../../../assets/Immagini/htmlLogo.png"
-          alt="HTML Logo"
-          class="icon"
-        />
+        <picture>
+          <source
+            srcset="../../../assets/Immagini/htmlLogo.webp"
+            type="image/webp"
+          />
+          <img
+            src="../../../assets/Immagini/htmlLogo.png"
+            alt="HTML Logo"
+            class="aboutIcon"
+          />
+        </picture>
         <p class="smallFont">HTML</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
-        <img
-          src="../../../assets/Immagini/cssLogo.png"
-          alt="CSS Logo"
-          class="icon"
-        />
+        <picture>
+          <source
+            srcset="../../../assets/Immagini/cssLogo.webp"
+            type="image/webp"
+          />
+          <img
+            src="../../../assets/Immagini/cssLogo.png"
+            alt="CSS Logo"
+            class="aboutIcon"
+          />
+        </picture>
+
         <p class="smallFont">CSS</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
-        <img
-          src="../../../assets/Immagini/jsLogo.png"
-          alt="JavaScript Logo"
-          class="icon"
-        />
+        <picture>
+          <source
+            srcset="../../../assets/Immagini/jsLogo.webp"
+            type="image/webp"
+          />
+          <img
+            src="../../../assets/Immagini/jsLogo.png"
+            alt="JavaScript Logo"
+            class="aboutIcon"
+          />
+        </picture>
+
         <p class="smallFont">JavaScript</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
-        <img
-          src="../../../assets/Immagini/bootstrapLogo.png"
-          alt="Bootsrap Logo"
-          class="icon"
-        />
+        <picture>
+          <source
+            srcset="../../../assets/Immagini/bootstrapLogo.webp"
+            type="image/webp"
+          />
+          <img
+            src="../../../assets/Immagini/bootstrapLogo.png"
+            alt="Bootsrap Logo"
+            class="aboutIcon"
+          />
+        </picture>
         <p class="smallFont">Bootstrap</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
-        <img
-          src="../../../assets/Immagini/sassLogo.png"
-          alt="Sass Logo"
-          class="icon"
-        />
+        <picture>
+          <source
+            srcset="../../../assets/Immagini/sassLogo.webp"
+            type="image/webp"
+          />
+          <img
+            src="../../../assets/Immagini/sassLogo.png"
+            alt="Sass Logo"
+            class="aboutIcon"
+          />
+        </picture>
         <p class="smallFont">Sass</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
+      <picture>
+        <source srcset="../../../assets/Immagini/tsLogo.webp" type="image/webp" />
         <img
-          src="../../../assets/Immagini/tsLogo.png"
-          alt="TypeScript Logo"
-          class="icon2"
-        />
+        src="../../../assets/Immagini/tsLogo.png"
+        alt="TypeScript Logo"
+        class="aboutIcon"
+      />
+      </picture>
         <p class="smallFont">TypeScript</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
+      <picture>
+        <source
+          srcset="../../../assets/Immagini/angularLogo.webp"
+          type="image/webp"
+        />
         <img
           src="../../../assets/Immagini/angularLogo.png"
           alt="Angular Logo"
-          class="icon"
+          class="aboutIcon"
         />
+      </picture>
         <p class="smallFont">Angular</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
+      <picture>
+        <source srcset="../../../assets/Immagini/javaLogo.webp" type="image/webp" />
         <img
           src="../../../assets/Immagini/javaLogo.png"
           alt="Java Logo"
-          class="icon"
+          class="aboutIcon"
         />
+      </picture>
         <p class="smallFont">Java</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
+      <picture>
+        <source srcset="../../../assets/Immagini/springbootLogo.webp" type="image/webp" />
         <img
           src="../../../assets/Immagini/springbootLogo.png"
           alt="springboot Logo"
-          class="icon2 mb-1"
+          class="aboutIcon mb-1"
         />
+      </picture>
         <p class="smallFont">SpringBoot</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
+      <picture>
+        <source srcset="../../../assets/Immagini/postgreSqlLogo.webp" type="image/webp" />
         <img
-          src="../../../assets/Immagini/postgreSqlLogo.png"
-          alt="PostgreSQL Logo"
-          class="icon"
-        />
+        src="../../../assets/Immagini/postgreSqlLogo.png"
+        alt="PostgreSQL Logo"
+        class="aboutIcon"
+      />
+      </picture>
         <p class="smallFont">PostgreSQL</p>
       </div>
       <div
         class="col-4 col-sm-3 col-md-2 col-xl-1 text-center d-flex flex-column align-items-center justify-content-center"
       >
+      <picture>
+        <source srcset="../../../assets/Immagini/postmanLogo.webp" type="image/webp" />
         <img
           src="../../../assets/Immagini//postmanLogo.png"
           alt="Postman Logo"
-          class="icon"
+          class="aboutIcon"
         />
+      </picture>
         <p class="smallFont">Postman</p>
       </div>
     </div>
@@ -155,31 +226,43 @@
     <p>{{ "ABOUT.SERVICES.CONTENT2" | translate }}</p>
     <p>{{ "ABOUT.SERVICES.CONTENT3" | translate }}</p>
     <div class="d-flex justify-content-md-evenly flex-column flex-md-row">
-     <h5><a [routerLink]="['/portfolio']" class="mb-3 mb-md-0">{{
-        "ABOUT.SERVICES.MY_PROJECTS" | translate
-      }}</a></h5>
-      <h5><a [routerLink]="['/contact']">{{
-        "ABOUT.SERVICES.CONTACT" | translate
-      }}</a></h5>
+      <h5>
+        <a [routerLink]="['/portfolio']" class="mb-3 mb-md-0">{{
+          "ABOUT.SERVICES.MY_PROJECTS" | translate
+        }}</a>
+      </h5>
+      <h5>
+        <a [routerLink]="['/contact']">{{
+          "ABOUT.SERVICES.CONTACT" | translate
+        }}</a>
+      </h5>
     </div>
   </div>
   <div>
     <h4 id="hire">{{ "ABOUT.HIRE.TITLE" | translate }}</h4>
     <p>{{ "ABOUT.HIRE.CONTENT" | translate }}</p>
     <div class="d-flex justify-content-md-evenly flex-column flex-md-row">
-      <h5><a
-        href="../../../assets/cvs/CvWalterBarbieri_IT.pdf"
-        download="CvWalterBarbieri_IT.pdf"
-        class="mb-3 mb-md-0"
-        >{{ "ABOUT.HIRE.DOWNLOADIT" | translate }}</a
-      ></h5>
-      <h5><a
-        href="../../../assets/cvs/CvWalterBarbieri_EN.pdf"
-        download="CvWalterBarbieri_EN.pdf"
-        class="mb-3 mb-md-0"
-        >{{ "ABOUT.HIRE.DOWNLOADEN" | translate }}</a
-      ></h5>
-      <h5><a [routerLink]="['/contact']">{{ "ABOUT.HIRE.CONTACT" | translate }}</a></h5>
+      <h5>
+        <a
+          href="../../../assets/cvs/CvWalterBarbieri_IT.pdf"
+          download="CvWalterBarbieri_IT.pdf"
+          class="mb-3 mb-md-0"
+          >{{ "ABOUT.HIRE.DOWNLOADIT" | translate }}</a
+        >
+      </h5>
+      <h5>
+        <a
+          href="../../../assets/cvs/CvWalterBarbieri_EN.pdf"
+          download="CvWalterBarbieri_EN.pdf"
+          class="mb-3 mb-md-0"
+          >{{ "ABOUT.HIRE.DOWNLOADEN" | translate }}</a
+        >
+      </h5>
+      <h5>
+        <a [routerLink]="['/contact']">{{
+          "ABOUT.HIRE.CONTACT" | translate
+        }}</a>
+      </h5>
     </div>
   </div>
 </div>
