@@ -7,7 +7,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 })
 export class LanguageService {
   private validLanguages = ['it', 'en'];
-  private currentLanguageSubject = new BehaviorSubject<string>('en');
+  private currentLanguageSubject = new BehaviorSubject<string>('it');
   public language$: Observable<string> =
     this.currentLanguageSubject.asObservable();
 

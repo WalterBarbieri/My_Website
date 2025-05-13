@@ -49,8 +49,9 @@
     "TOSITE": "Vai al Sito",
     "GIT": "Vedi su Git",
     "DESCRIPTION": "Descrizione",
-    "CONTENT_PEPEFACTORY": "E-Commerce per gioielleria artigianale sviluppato con Angular, SpringBoot e PostgreSQL. Totalmente reattivo e ottimizzato per mobile e desktop. Sole API esterne PayPal, Stripe e IDB per pagamenti sicuri e ottime prestazioni. Email automatiche e manuali integrate. Pannello di controllo admin avanzato. SEO tecnica ottimizzata. Servizio di traduzione integrato (EN e IT) con possibilità di aggiungere altre lingue. Scalabile. Progetto chiavi in mano.",
-    "CONTENT_CORYLUSNEBRODI": "Sito web per gruppo operativo interaziendale sviluppato con Angular, SpringBoot e PostgreSQL. Totalmente reattivo e ottimizzato per mobile e desktop. Email automatiche e manuali integrate. Servizio di newsletter personalizzato. Condivisione post pubblici e privati per divulgazione attività e condivisione informazioni. Pannello di controllo utenti/admin avanzato. SEO tecnica ottimizzata. Servizio di traduzione integrato (EN e IT) con possibilità di aggiungere altre lingue. Scalabile. Progetto chiavi in mano."
+    "CONTENT_PEPEFACTORY": "E-Commerce per gioielleria artigianale sviluppato con Angular, SpringBoot e PostgreSQL. Totalmente reattivo e ottimizzato per mobile, tablet e desktop. Sole API esterne PayPal, Stripe e IDB per pagamenti sicuri e ottime prestazioni. Email automatiche e manuali integrate. Pannello di controllo admin avanzato. SEO tecnica ottimizzata. Servizio di traduzione integrato (EN e IT) con possibilità di aggiungere altre lingue. Scalabile. Progetto chiavi in mano.",
+    "CONTENT_CORYLUSNEBRODI": "Sito web per gruppo operativo interaziendale sviluppato con Angular, SpringBoot e PostgreSQL. Totalmente reattivo e ottimizzato per mobile, tablet e desktop. Email automatiche e manuali integrate. Servizio di newsletter personalizzato. Condivisione post pubblici e privati per divulgazione attività e condivisione informazioni. Pannello di controllo utenti/admin avanzato. SEO tecnica ottimizzata. Servizio di traduzione integrato (EN e IT) con possibilità di aggiungere altre lingue. Scalabile. Progetto chiavi in mano.",
+    "CONTENT_GIORGIDESIGN": "Sito web per libero professionista sviluppato con Astro e Tailwind. Pre-rendering per performance elevate. Applicazione single page totalmente reattiva con scroll ottimizzato per mobile, tablet e desktop. SEO tecnica ottimizzata. Servizio di traduzione integrato (EN e IT) con possibilità di aggiungere altre lingue. Progetto chiavi in mano."
   },
   "title": {
     "app": "Walter Barbieri - Sviluppatore Web Fullstack",
@@ -62,31 +63,31 @@
   "meta": {
     "app": {
       "description": "Walter Barbieri, sviluppatore web fullstack, crea siti internet di tutti i tipi, gestisce hosting, deploy e SEO tecnica. Offro collaborazione con aziende per progetti specifici o a lungo termine.",
-      "keywords": "Walter Barbieri, sviluppatore web fullstack, sviluppatore web, fullstack developer, frontend developer, backend developer, web developer, sviluppo siti web, creazione siti internet, realizzazione siti internet, progettazione siti web, sviluppo software, web app, app web, ecommerce, e-commerce, shop, online, online shop, SPA, siti dinamici, siti statici, SEO tecnica, ottimizzazione SEO, sviluppo frontend, sviluppo backend, sviluppo Angular, Angular developer, Java developer, Spring Boot developer, API REST, sicurezza web, performance web, web hosting, deploy, CI/CD, manutenzione sito, aggiornamento sito, sviluppo custom, consulenza web, servizi web, HTML, CSS, JavaScript, TypeScript, SCSS, Sass, Bootstrap, Git, GitHub, GitLab, codice open source, PostgreSQL, database relazionali, responsive design, mobile first, PWA, accessibilità web, user experience, UI/UX, compatibilità browser, domain management, configurazione DNS, SSL, HTTPS, performance audit, SEO audit, consulente SEO, professionista web, web engineer, cloud hosting, VPS, deploy automatizzato, progetti collaborativi, sviluppo progetti aziendali, siti professionali, siti per aziende, siti personali, portfolio online, branding digitale, web marketing, realizzazione landing page, sviluppo CMS custom, CMS headless, SEO locale, it, IT",
+      "keywords": "Walter Barbieri, sviluppatore web fullstack, sviluppatore web, fullstack developer, frontend developer, backend developer, web developer, sviluppo siti web, creazione siti internet, realizzazione siti internet, progettazione siti web, sviluppo software, web app, app web, ecommerce, e-commerce, shop, online, online shop, SPA, siti dinamici, siti statici, SEO tecnica, ottimizzazione SEO, sviluppo frontend, sviluppo backend, sviluppo Angular, Angular developer, Java developer, Spring Boot developer, API REST, sicurezza web, performance web, web hosting, deploy, CI/CD, manutenzione sito, aggiornamento sito, sviluppo custom, consulenza web, servizi web, HTML, CSS, JavaScript, TypeScript, SCSS, Sass, Bootstrap, Git, GitHub, Astro, Tailwind, codice open source, PostgreSQL, database relazionali, responsive design, mobile first, PWA, accessibilità web, user experience, UI/UX, compatibilità browser, domain management, configurazione DNS, SSL, HTTPS, performance audit, SEO audit, consulente SEO, professionista web, web engineer, cloud hosting, VPS, deploy automatizzato, progetti collaborativi, sviluppo progetti aziendali, siti professionali, siti per aziende, siti personali, portfolio online, branding digitale, web marketing, realizzazione landing page, sviluppo CMS custom, CMS headless, SEO locale, it, IT, BWFullstackDeveloper, BW, BW Fullstack Developer, BW Fullstack, BW developer, web, website",
       "author": "Walter Barbieri",
       "ogTitle": "Walter Barbieri - Sviluppatore Web Fullstack",
       "ogDescription": "Walter Barbieri, sviluppatore web fullstack, crea siti internet di tutti i tipi, gestisce hosting, deploy e SEO tecnica. Offro collaborazione con aziende per progetti specifici o a lungo termine.",
-      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp",
       "ogUrl": "https://walterbarbieri.it",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Walter Barbieri - Sviluppatore Web Fullstack",
       "twitterDescription": "Walter Barbieri, sviluppatore web fullstack, crea siti internet di tutti i tipi, gestisce hosting, deploy e SEO tecnica. Offro collaborazione con aziende per progetti specifici o a lungo termine.",
-      "twitterImage": "assets/logo/bw_logo_black.png"
+      "twitterImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp"
     },
     "home": {
       "description": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per i miei servizi o per collaborazioni.",
-      "keywords": "Walter Barbieri, homepage, home, sviluppatore web fullstack, sviluppatore web, web developer, fullstack developer, frontend developer, backend developer, portfolio, competenze, profilo professionale, contatto, collaborazione, presentazione sviluppatore, presentazione personale, introduzione, bio, sviluppo web, realizzazione siti internet, creazione siti web, consulenza web, web design, UX design, UI design, user experience, web app, PWA, web marketing, SEO, SEO tecnica, HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, GitHub, siti responsive, siti professionali, siti per aziende, siti personali, branding, esperienze lavorative, progetti web, hosting, deploy, aggiornamento sito, manutenzione sito",
+      "keywords": "Walter Barbieri, homepage, home, sviluppatore web fullstack, sviluppatore web, web developer, fullstack developer, frontend developer, backend developer, portfolio, competenze, profilo professionale, contatto, collaborazione, presentazione sviluppatore, presentazione personale, introduzione, bio, sviluppo web, realizzazione siti internet, creazione siti web, consulenza web, web design, UX design, UI design, user experience, web app, PWA, web marketing, SEO, SEO tecnica, HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, GitHub, Astro, Tailwind, siti responsive, siti professionali, siti per aziende, siti personali, branding, esperienze lavorative, progetti web, hosting, deploy, aggiornamento sito, manutenzione sito, BWFullstackDeveloper, BW, BW Fullstack Developer, BW Fullstack, BW developer, web, website",
       "author": "Walter Barbieri",
       "ogTitle": "Home - Walter Barbieri",
       "ogDescription": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per i miei servizi o per collaborazioni.",
-      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp",
       "ogUrl": "https://walterbarbieri.it",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Home - Walter Barbieri",
       "twitterDescription": "Benvenuti nella homepage di Walter Barbieri, sviluppatore web fullstack. Scopri di più su di me e sulle mie competenze, visualizza il mio portfolio e contattami per per i miei servizi o per collaborazioni.",
-      "twitterImage": "assets/logo/bw_logo_black.png"
+      "twitterImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp"
     },
     "portfolio": {
       "description": "Scopri i lavori di Walter Barbieri, sviluppatore web fullstack. Visita i siti web creati e visualizza i progetti su GitHub.",
@@ -94,13 +95,13 @@
       "author": "Walter Barbieri",
       "ogTitle": "Portfolio - Walter Barbieri",
       "ogDescription": "Scopri i lavori di Walter Barbieri, sviluppatore web fullstack. Visita i siti web creati e visualizza i progetti su GitHub.",
-      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp",
       "ogUrl": "https://walterbarbieri.it/portfolio",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Portfolio - Walter Barbieri",
       "twitterDescription": "Scopri i lavori di Walter Barbieri, sviluppatore web fullstack. Visita i siti web creati e visualizza i progetti su GitHub.",
-      "twitterImage": "assets/logo/bw_logo_black.png"
+      "twitterImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp"
     },
     "about": {
       "description": "Scopri la storia di Walter Barbieri, sviluppatore web fullstack, le tecnologie che utilizza, i servizi offerti e le opportunità di collaborazione.",
@@ -108,13 +109,13 @@
       "author": "Walter Barbieri",
       "ogTitle": "About - Walter Barbieri",
       "ogDescription": "Scopri la storia di Walter Barbieri, sviluppatore web fullstack, le tecnologie che utilizza, i servizi offerti e le opportunità di collaborazione.",
-      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp",
       "ogUrl": "https://walterbarbieri.it/about-me",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "About - Walter Barbieri",
       "twitterDescription": "Scopri la storia di Walter Barbieri, sviluppatore web fullstack, le tecnologie che utilizza, i servizi offerti e le opportunità di collaborazione.",
-      "twitterImage": "assets/logo/bw_logo_black.png"
+      "twitterImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp"
     },
     "contact": {
       "description": "Contatta Walter Barbieri, sviluppatore web fullstack. Trova i suoi contatti: telefono, email, PEC, partita IVA, e i link per LinkedIn e GitHub.",
@@ -122,13 +123,13 @@
       "author": "Walter Barbieri",
       "ogTitle": "Contact - Walter Barbieri",
       "ogDescription": "Contatta Walter Barbieri, sviluppatore web fullstack. Trova i suoi contatti: telefono, email, PEC, partita IVA, e i link per LinkedIn e GitHub.",
-      "ogImage": "assets/logo/bw_logo_black.png",
+      "ogImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp",
       "ogUrl": "https://walterbarbieri.it/contact",
       "ogType": "website",
       "twitterCard": "summary_large_image",
       "twitterTitle": "Contact - Walter Barbieri",
       "twitterDescription": "Contatta Walter Barbieri, sviluppatore web fullstack. Trova i suoi contatti: telefono, email, PEC, partita IVA, e i link per LinkedIn e GitHub.",
-      "twitterImage": "assets/logo/bw_logo_black.png"
+      "twitterImage": "https://walterbarbieri.it/assets/logo/BW_nord_negativo.webp"
     }
   }
 }
